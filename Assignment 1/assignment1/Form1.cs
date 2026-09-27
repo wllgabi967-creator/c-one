@@ -34,11 +34,13 @@ namespace assignment1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // creating variable and declaring variable
             string name = txtname.Text;
             int studentid = int.Parse(txtstudentid.Text);
             string department = txtdepartment.Text;
             int semester = int.Parse(txtsemester.Text);
 
+            // display output label
             lbloutput.Text = "Student Name: " + name +"Student ID: " + studentid +"Department: " + department +"Semester: " + semester;
         }
 
