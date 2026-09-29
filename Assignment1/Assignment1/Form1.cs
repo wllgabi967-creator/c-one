@@ -26,6 +26,7 @@ namespace Assignment1
 
         private void btnshow_Click(object sender, EventArgs e)
         {
+            
             //declare variable
             string week, month, year, day;
 
